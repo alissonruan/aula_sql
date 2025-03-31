@@ -4,11 +4,11 @@ insert into Cliente values
 (3, "João", "Casa", "170", "R$10000", "Masculino", "Casado"),
 (4, "Pedro", "Apartamento", "5", "R$9000", "Masculino", "Casado"),
 (5, "Amanda", "Apartamento", "45", "12000", "Feminino", "Solteira"),
-(6, "Fernanda", "Casa", "59", "R$20000", "Masculino", "Solteiro"),
+(6, "Fernanda", "Casa", "59", "R$20000", "Feminino", "Solteira"),
 (7, "Maicon", "Apartamento", "300", "R$30000", "Masculino", "Casado"),
-(8, "Giovanna", "Casa", "22", "R$30000", "Feminino",  "Solteiro"),
+(8, "Giovanna", "Casa", "22", "R$30000", "Feminino",  "Solteira"),
 (9, "Marcelo", "Apartamento", "30", "R$10000", "Masculino", "Solteiro"),
-(10, "Vanessa", "Apartatamento", "500", "R$50000", "Feminino", "Casado");
+(10, "Vanessa", "Apartatamento", "500", "R$50000", "Feminino", "Casada");
 
 select * from Cliente;
 
@@ -27,6 +27,15 @@ insert into Funcionario values
 select * from Funcionario;
 
 insert into Conjuge values
-(1, "Maria", "Feminino");
-(2, "Thiago", "Masculino");
-(3,
+(1, "Maria", "Feminino"),
+(2, "Thiago", "Masculino"),
+(3, "Renata", "Feminino"),
+(4, "Flavia", "Feminino"),
+(5, "Danilo", "Masculino"),
+(6, "Bruno", "Masculino"),
+(7, "Sandra", "Feminino"),
+(8, "Henrique", "Masculino"),
+(9, "Joana", "Feminino"),
+(10, "Gregore", "Masculino"),
+
+

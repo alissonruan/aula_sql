@@ -38,4 +38,11 @@ insert into Conjuge values
 (9, "Joana", "Feminino"),
 (10, "Gregore", "Masculino"),
 
+select * from Conjuge;
 
+insert into Dependente values
+(1, "Gustavo", "Filho", "Masculino"),
+(2, "Mirelly", "Filha", "Feminino"),
+(3, "Felipe", "Neto", "Masculino"),
+(4, "Kaique", "Afilhado", "Masculino"),
+(5, ""

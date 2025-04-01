@@ -45,4 +45,12 @@ insert into Dependente values
 (2, "Mirelly", "Filha", "Feminino"),
 (3, "Felipe", "Neto", "Masculino"),
 (4, "Kaique", "Afilhado", "Masculino"),
-(5, ""
+(5, "Giovanna", "Filha", "Feminino"),
+(6, "Cristina", "Enteada", "Feminino"),
+(7, "Gulherme", "Filho", "Masculino"),
+(8, "Vitoria", "Neta", "Feminino"),
+(9, "Pedro", "Filho", "Masculino"),
+(10, "Vinicius", "Filho", "Masculino"),
+
+select * from Dependente;
+

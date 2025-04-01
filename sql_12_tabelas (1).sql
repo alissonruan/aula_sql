@@ -60,7 +60,6 @@ create table Endereco(
 create table Pedidos(
 	id_pedidos bigint(11) primary key,
 	valor double (10,2),
-	nome varchar (30)
 );
 
 
